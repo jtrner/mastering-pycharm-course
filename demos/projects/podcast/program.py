@@ -1,6 +1,6 @@
 import service
 
-__VERSION__ = "2.1"
+__VERSION__ = "2.1.1"
 
 
 def main():
