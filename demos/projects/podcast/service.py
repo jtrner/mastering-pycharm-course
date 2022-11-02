@@ -7,6 +7,8 @@ import requests
 Episode = namedtuple('Episode', 'title, link, date, id')
 episodes: Dict[int, Episode] = {}
 
+download_status = True
+
 
 def download_info():
     url = 'https://talkpython.fm/episodes/rss'
