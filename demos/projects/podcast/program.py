@@ -6,6 +6,10 @@ import logging
 __VERSION__ = "2.2.2.2.2.2"
 
 
+def ref2_branch():
+    print(f'new ref2 branch')
+
+
 def main():
     pattern = re.compile(r'\d\w\s\s\s\s\s\s')
     print_header()
