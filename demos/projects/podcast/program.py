@@ -2,11 +2,11 @@ import service
 import re
 import logging
 
-__VERSION__ = "2.1.1.3.4"
+__VERSION__ = "2.1"
 
 
 def main():
-    pattern = re.compile(r'\d\w\s')
+    pattern = re.compile(r'\d\w\s\s\s\s\s\s')
     print_header()
     service.download_info()
     show_titles()
