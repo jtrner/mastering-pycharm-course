@@ -14,6 +14,9 @@ def main():
 
 def print_me():
     print(f'print me')
+    print(f'print me')
+    print(f'print me')
+    print(f'print me')
 
 
 def print_header():
