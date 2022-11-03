@@ -1,9 +1,12 @@
 import service
+import re
+import logging
 
 __VERSION__ = "2.1.1.3.4"
 
 
 def main():
+    pattern = re.compile(r'\d\w\s')
     print_header()
     service.download_info()
     show_titles()
